@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE isopackager PUBLIC
+        "-//jPOS/jPOS Generic Packager DTD 1.0//EN"
+        "http://jpos.org/dtd/generic-packager-1.0.dtd">
+<isopackager headerLength = "7">
+    <isofield id="0" length="4" name="MESSAGE TYPE INDICATOR" class="org.jpos.iso.IFA_NUMERIC"/>
+    <isofield id="1" length="16" name="BIT MAP" class="org.jpos.iso.IFA_BITMAP"/>
+    <isofield id="2" length="19" name="PRIMARY ACCOUNT NUMBER" class="org.jpos.iso.IFA_LLNUM" />
+    <isofield id="3" length="6" name="PROCESSING CODE" class="org.jpos.iso.IFA_NUMERIC"/>
+    <isofield id="4" length="12" name="TRANSACTION AMOUNT" class="org.jpos.iso.IFA_NUMERIC"/>
+    <isofield id="7" length="10" name="TRANSMISSION DATE AND TIME" class="org.jpos.iso.IFA_NUMERIC"/>
+    <isofield id="8" length="8" name="CARDHOLDER BILLING FEE AMOUNT" class="org.jpos.iso.IFA_NUMERIC"/>
+    <isofield id="11" length="6" name="SYSTEM TRACE AUDIT NUMBER" class="org.jpos.iso.IFA_NUMERIC" />
+    <isofield id="12" length="6" name="LOCAL TRANSACTION TIME" class="org.jpos.iso.IFA_NUMERIC" />
+    <isofield id="13" length="4" name="LOCAL TRANSACTION DATE" class="org.jpos.iso.IFA_NUMERIC" />
+    <isofield id="14" length="4" name="EXPIRATION DATE" class="org.jpos.iso.IFA_NUMERIC" />
+    <isofield id="19" length="3" name="ACQUIRING INSTITUTION COUNTRY CODE" class="org.jpos.iso.IFA_NUMERIC" />
+    <isofield id="21" length="3" name="FORWARDING INSTITUTION COUNTRY CODE" class="org.jpos.iso.IFA_NUMERIC" />
+</isopackager>
